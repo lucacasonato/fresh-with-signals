@@ -1,11 +1,7 @@
-# fresh project
+# fresh-with-signals
 
-### Usage
+https://fresh-with-signals.deno.dev
 
-Start the project:
+This project demonstrates how to use `@preact/signals` with Fresh.
 
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+To start this project locally, run `deno task start`.
