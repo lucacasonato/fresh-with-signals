@@ -20,14 +20,14 @@ export default function Home() {
           <b>Fresh</b>
         </a>, the next-gen web framework for Deno. This is a demo of using the
         {" "}
-        <a
-          href="https://preactjs.com/blog/introducing-signals"
-          class={"hover:underline"}
-        >
-          new `@preact/signals` library
-        </a>{" "}
-        in Fresh. It demonstrates how you can use signals to communicate across
-        islands.
+        new `@preact/signals` library in Fresh. It demonstrates how you can use
+        signals to communicate across islands.
+      </p>
+      <p class="my-6">
+        Not sure what signals are? Read the{" "}
+        <a href="https://preactjs.com/blog/introducing-signals" class={link}>
+          @preact/signals announcement blog post
+        </a>.
       </p>
       <IslandIndicatorSwitch />
       <div class="border p-2 my-6">
