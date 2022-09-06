@@ -106,8 +106,13 @@ export default function Home() {
       </pre>
 
       <p class="mt-20 mb-6 flex justify-between">
-        <a href="https://fresh.deno.dev" class={link}>Homepage</a>
-        <a href="https://fresh.deno.dev/docs" class={link}>Docs</a>
+        <a
+          href="https://github.com/lucacasonato/fresh-with-signals"
+          class={link}
+        >
+          Source code
+        </a>
+        <a href="https://fresh.deno.dev/docs" class={link}>Fresh Docs</a>
         <a href="https://lcas.dev" class={link}>Built by @lcasdev</a>
       </p>
     </div>
