@@ -96,7 +96,7 @@ export default function Home() {
         You can use `@preact/signals` in your own Fresh project by adding these
         two entries to your `import_map.json`:
       </p>
-      <pre class="border p-2 my-6">
+      <pre class="border p-2 my-6 overflow-x-auto">
         {JSON.stringify({
           imports: {
             "@preact/signals": "https://esm.sh/*@preact/signals@1.0.0",
