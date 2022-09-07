@@ -9,13 +9,16 @@ const link = "text-blue-500 hover:underline";
 export default function Home() {
   return (
     <div class="p-4 mx-auto max-w-screen-md">
-      <img
-        src="/logo.svg"
-        class="w-32 h-32"
-        alt="the fresh logo: a sliced lemon dripping with juice"
-      />
+      <img src="/signal.svg" class="mx-auto" alt="an island receiving signal" />
+
       <p class="my-6">
         Welcome to{" "}
+        <img
+          src="/logo.svg"
+          class="w-5 h-5 inline-block align-text-bottom"
+          alt="the fresh logo: a sliced lemon dripping with juice"
+        />
+
         <a href="https://fresh.deno.dev" class="hover:underline">
           <b>Fresh</b>
         </a>, the next-gen web framework for Deno. This is a demo of using the
