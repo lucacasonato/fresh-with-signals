@@ -37,7 +37,7 @@ export default function Home() {
         <Counter start={3} />
         <Counter start={4} />
         <p class="mt-2">
-          This counters uses a `useSignal` hook to create a signal that is local
+          These counters use a `useSignal` hook to create a signal that is local
           to the component. This means that each instance of this `{" "}
           <a
             href="https://github.com/lucacasonato/fresh-with-signals/blob/main/islands/Counter.tsx"
@@ -55,7 +55,7 @@ export default function Home() {
           <SynchronizedSlider />
         </div>
         <p class="mt-2">
-          Here, each slider is it's own island. However all of these islands
+          Here, each slider is its own island. However, all of these islands
           share a single global `signal()`. This means that all of the sliders
           are synchronized with each other, sharing state across island
           boundaries.{" "}
